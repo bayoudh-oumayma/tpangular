@@ -1,0 +1,32 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">apcpedagogie</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <div style="margin-left: 60%;">
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" mat-button [routerLink]="['accueil']">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" mat-button [routerLink]="['cours']">cours</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['ressource']">Ressource</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['contact']">contact</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search">
+       
+      </form>
+       <button type="submit"><i class="fa fa-search"></i></button>
+    </div>
+  </div>
+  </nav>
